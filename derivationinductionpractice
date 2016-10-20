@@ -1,0 +1,9 @@
+S => u
+S => v
+
+S -> aaSb => aaSSb => aauSb => (w = aauvb)  na(u)=2nb(u), na(v)=2nb(v), so na(w) = na(u)+na(v)+2m where m is the number of b's added by the derivation aaSb
+likewise the number of b's is nb(w) = nb(u) + nb(v) + m where m is the number of b's added. in this case 1.
+
+S -> bSaa => bSSaa => buSaa => (w = buvaa) this is essentially the same as above
+
+S -> aSbSa => aubSa => (w = aubva) na(u)=2nb(u), na(v)=2nb(v) this time we will start with the b's. nb(w) = nb(u) + nb(v) + 1 so na(w) = na(u) + na(v) + 2 (ie na(w) = 2nb(w))   

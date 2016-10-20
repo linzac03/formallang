@@ -1,0 +1,34 @@
+ch 3.
+
+2. S -> ASB | \
+   A -> aAb | \
+   B -> bBa | ba
+	a) aabbba => ASB
+			  => aAbSB
+			  => aaAbbSB
+			  => aabbSB
+			  => aabbB
+			  => aabbba
+
+	b) abaabbbabbaa => ASB
+					=> ASbBa
+					=> ASbbaa
+					=> AASBbbaa
+					=> AASbabbaa
+					=> AAbabbaa
+					=> AaAbbabbaa
+					=> AaaAbbbabbaa
+					=> Aaabbbabbaa
+					=> aAbaabbbabbaa
+					=> abaabbbabbaa
+
+
+6. a) {aa U a*b+}* 
+   b) {a, c} U   
+
+36. S -> aS | bA | \
+	A -> bA | aS | \
+
+	a*b*a*
+
+	

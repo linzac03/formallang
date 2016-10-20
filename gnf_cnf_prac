@@ -1,0 +1,23 @@
+p. 140
+
+23. S -> A | ABa | AbA
+	A -> Aa | \
+	B -> Bb | BC
+	C -> CB | CA | bB
+	
+	Remove nullable rule, move to S
+	S -> A | ABa | AbA | \	
+	A -> Aa | a
+    B -> Bb | BC
+    C -> CB | CA | bB
+
+	Add rules for non-terms A' B'
+	S -> AA' | a  | ABA' | AB'A | \	
+	A -> AA' | a
+    B -> BB' | BC
+    C -> CB | CA | B'B
+	A' -> a
+	B' -> b
+	
+	Remove useless C 
+
